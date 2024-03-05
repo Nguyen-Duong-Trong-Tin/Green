@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --color-one: #5CB874;
+  --color-two: #444444;
+  --color-three: #F9F9F9;
+
+  --color-text-one: #444444;
+  --color-text-two: #919191;
+
+  --color-background-one: #FBFBFB;
+  --color-background-two: #F8FCF9;
+  --color-background-three: #090909;
+
+  --font: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--color-text-one);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-two);
+}
+
+a:hover {
+  color: var(--color-one);
+}
